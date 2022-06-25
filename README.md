@@ -3,7 +3,7 @@
 ###### Requisitos:
 
 - Docker-compose
-- configurar la img de MySQL en Docker
+- descargar la img de MySQL en Docker
   [Docker Hub - images mysql](https://hub.docker.com/_/mysql)
 
 ---
