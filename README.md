@@ -1,4 +1,4 @@
-### 1. Configuración de db MySQL con Docker-compose
+# Configuración de db MySQL con Docker-compose
 ###### Requisitos: 
 - Docker-compose 
 - configurar la img de MySQL en Docker
