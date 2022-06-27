@@ -24,4 +24,11 @@ services:
 ### 2. Iniciar base de datos `docker-compose up -d db`
 - Cerrar: `docker-compose down `
 
+### Teoria de conjutos 
+
+![](https://raw.githubusercontent.com/DaElias/Config_MySQL/main/notas%20de%20MySQL/set%20theory/set%20theory%20%231.jpg)
+
+![](https://raw.githubusercontent.com/DaElias/Config_MySQL/main/notas%20de%20MySQL/set%20theory/set%20theory%20%232.jpg)
+
+![](https://raw.githubusercontent.com/DaElias/Config_MySQL/main/notas%20de%20MySQL/set%20theory/sql_joins.jpeg)
 
