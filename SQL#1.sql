@@ -15,12 +15,37 @@
 
 -- ##UPDATE
 -- update people set first_name="ISRAEL" where idpeoples=1; 
+update posts set fecha_pub=concat(fecha_pub,"01:00:00") where id=1;
+select * from posts;
 
 -- ##DELETE
 -- delete from people where idpeoples=3; 
-
+-- delete from posts where id = 6;
 
 -- ##SELECT
 -- select last_name from people; 
+-- select * from posts where YEAR(fecha_pub) > "2020"; -- Buscar de datetime por el año 
+-- select titulo as cabez from posts;
+-- select count(*) as numero_posts from posts; -- Muestra el numero total de posts
+select * from posts;
+
+
+
+
+-- ## Creacion de Post (reglas) 
+-- 1. Se debe crear un usuario
+insert into usuarios (login, password,nickname, email) value("test4","asd123","test test","test4@test.com");
+-- 2. Se deben establecer las categorias
+insert into categorias (nombre_categoria) values("data science");
+-- 3. creacion del post (referenciando al usuario creador y su respectiva categoria)
+-- insert into posts (titulo,fecha_pub,contenido,estatus,categoria_id,usuario_id) values("ejemplo titulo !@#@",'2009-01-05',"lorem bla bla...","activo",1,2);
+
+
+
+
+
+
+
+
 
 
